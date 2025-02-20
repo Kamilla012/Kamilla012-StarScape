@@ -35,7 +35,13 @@
 //   twitter,
 //   yourlogo,
 // } from "../../public/assets";
+import { FaHome, FaFileAlt, FaSearch, FaPlusSquare } from "react-icons/fa";
 
+import notification4 from "../assets/image-4.png";
+import notification3 from "../assets/image-3.png";
+import notification2 from "../assets/image-2.png";
+
+// import companyLogos from "../assets/yourlogo.svg";
 export const navigation = [
   {
     id: "0",
@@ -71,11 +77,11 @@ export const navigation = [
   },
 ];
 
-// export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
+export const MainIcons = [FaHome, FaFileAlt, FaSearch, FaPlusSquare];
 
-// export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [notification4, notification3, notification2];
 
-// export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+//export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 // export const brainwaveServices = ["Photo generating", "Photo enhance", "Seamless Integration"];
 
