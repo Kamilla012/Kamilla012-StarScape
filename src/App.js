@@ -2,6 +2,7 @@ import Button from "./components/Button";
 import ButtonGradient from "../src/assets/ButtonGradient";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import Benefits from "./components/Benefits";
 const App = () => {
   return (
     <>
@@ -10,6 +11,7 @@ const App = () => {
 
         <Header />
         <Main />
+        <Benefits />
       </div>
     </>
   );
